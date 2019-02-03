@@ -1,0 +1,31 @@
+PUT application
+{
+   "mappings": {
+         "video": {
+            "properties": {
+                "id": {
+                  "type": "long"
+               },
+               "title": {
+                  "type": "text"
+               },
+               "description": {
+                  "type": "text"
+               },
+               "actors": {
+                  "type": "text"
+               },
+               "categories": {
+                  "type": "text"
+               },
+               "tags": {
+                  "type": "text"
+               },
+               "date": {
+                  "type": "date",
+                  "format": "yyyy-MM-dd HH:mm:ss"
+               }
+            }
+         }
+      }
+}

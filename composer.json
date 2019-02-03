@@ -1,0 +1,15 @@
+{
+    "name": "milos/application",
+    "description": "Elastic data manipulation",
+    "type": "project",
+    "require": {
+        "elasticsearch/elasticsearch": "^6.1",
+        "paragonie/easydb": "^2.8"
+    },
+    "authors": [
+        {
+            "name": "Milos Milojevic",
+            "email": "milos1234@gmail.com"
+        }
+    ]
+}
