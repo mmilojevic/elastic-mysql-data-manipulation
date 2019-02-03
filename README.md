@@ -1,6 +1,10 @@
 Description
 -----------
 Application for manipulating data between mysql and elastic.
+Used technologies"
+php 7.2.13
+mysql 5.7.25
+elastic 6.2.2
 
 Installation
 ------------
@@ -11,7 +15,7 @@ Run  ```  composer install ``` in the root
 
 Create in mysql database with command ```  create database application default charset utf8; ```
 
-Import video.sql with command: ``` mysql -u root -proot application < video.sql  ```
+Import video.sql  with command: ``` mysql -u root -proot application < schemas/video.sql  ```
 
 Create Elastic index with command: 
 ```
